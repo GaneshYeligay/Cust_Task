@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: auto;
+  width: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5rem;
+}
+input,
+button {
+  font-size: 1.3rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.fOne{
+  display: flex;
+}
+
+.fLeft{
+  margin-left: 10%;
+}
+
+.btnsub{
+  margin: 20px;
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+  border-radius: 6px;
+  border: none;
+}
+
+.btnsub:hover {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1e7e34;
+}
+
+.btnrst{
+  margin: 20px;
+  border-radius: 6px;
+  border: none;
+  background-color: darkgrey;
+}
+
+.edtbtn{
+  /* margin: 20px; */
+  color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  border-radius: 6px;
+  border: none;
+}
+
+.rmvbtn{
+  color: #fff; 
+    background-color: #c82333;
+    border-color: #bd2130;
+    border-radius: 6px;
+    border: none;
 }
